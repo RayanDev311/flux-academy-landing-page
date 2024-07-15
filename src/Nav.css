@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 17px 32px;
+  }
+  .navbar-logo {
+    font-family: Inter;
+    font-size: 8.22px;
+    font-weight: 900;
+    line-height: 8.8px;
+    letter-spacing: -0.14674577116966248px;
+    text-align: left;
+  }
+  .navbar-links {
+    gap: 24px;
+    list-style: none;
+    display: flex;
+  }
+  .navbar-links a {
+    font-family: Inter;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: right;
+    cursor: pointer;
+  }
+  .button {
+    border-radius: 32px;
+    cursor: pointer;
+    padding: 12px 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: #F3F3F3;
+    background-color: #000;
+    border: none;
+    outline: none;
+}
+.mobile-menu {
+  display: none;
+}

@@ -1,0 +1,37 @@
+.secondHero {
+    background-image: url(secondHero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    object-position: center;
+    height: 588px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #f3f3f3;
+    gap: 20px;
+}
+.secondHero h1 {
+    width: 50%;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: -1px;
+    margin: 0;
+}
+.secondHero p {
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0;
+}
+.secondHero .button {
+    background-color: #F3F3F3;
+    color: #000;
+}
